@@ -4,7 +4,7 @@ class Year {
   }
 
   isLeap() {
-    return this.year % 4 === 0;
+    return this.year % 4 === 0 && this.year % 100 !== 0;
   }
 }
 
